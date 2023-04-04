@@ -1,0 +1,26 @@
+.pie-header {
+    display: flex;
+    background-color: red;
+    height: 35px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carousel-padre {
+    width: 50vw;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.ancho-carousel {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.card-productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: row;
+}
