@@ -8,7 +8,7 @@
 }
 
 .carousel-padre {
-    width: 50vw;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -23,4 +23,27 @@
     justify-content: space-around;
     align-items: baseline;
     flex-direction: row;
+}
+
+.imgFachada {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quienesSomos {
+    display: flex;
+    height: 35px;
+    color: rgb(66, 66, 66);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.historia {
+    display: flex;
+    background-color: rgba(66, 65, 65, 0.76);
+    height: 35px;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
 }

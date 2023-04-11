@@ -74,7 +74,7 @@ h1 {
   justify-content: space-around; }
 
 .carousel-padre {
-  width: 50vw;
+  width: 100%;
   margin: 0 auto;
   padding: 10px; }
 
@@ -87,3 +87,23 @@ h1 {
   justify-content: space-around;
   align-items: baseline;
   flex-direction: row; }
+
+.imgFachada {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap; }
+
+.quienesSomos {
+  display: flex;
+  height: 35px;
+  color: #424242;
+  align-items: center;
+  justify-content: space-around; }
+
+.historia {
+  display: flex;
+  background-color: rgba(66, 65, 65, 0.76);
+  height: 35px;
+  color: white;
+  align-items: center;
+  justify-content: space-around; }
